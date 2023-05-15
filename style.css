@@ -1,1 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+/* font-family: 'Dancing Script', cursive; */
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+/* font-family: 'Open Sans', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    margin: auto;
+    width: 80%;
+
+}
+
+body {
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: .9rem;
+    line-height: 1.5;
+}
+
+
+.container {
+    margin: auto;
+    width: 80%;
+    height: 310px;
+    background-color: #F4F0EC;
+    display: flex;
+}
+
+.imgProfil img {
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    /* display: flex; */
+    /* align-items: center; */
+
+}
+
+.imgProfil {
+    width: 40%;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.presentation {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/* rgb(62, 45, 31) */
+h1 {
+    margin: 0 0 1rem;
+    font-size: 2.5rem;
+    margin-bottom: .5rem;
+    text-align: right;
+    font-family: 'Dancing Script', cursive;
+    font-weight: lighter;
+
+}
+
+h2 {
+    text-align: right;
+    color: #856955;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.aboutme {
+    font-family: 'Open Sans', sans-serif;
+    width: 80%;
+    margin: auto;
+    padding: 15px auto;
+}
+
+.aboutme p {
+    padding: 15px 0;
+    /* premiere valeur: gauche droite
+  deuxiéme valeur: haut bas  */
+}
+
+section {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.cv-left {
+    width: 50%;
+    height: 100vh;
+    background-color: rgb(187, 162, 150);
+    /* display: flex; */
+
+}
+
+.verticalLine {
+    border-right: thick solid rgb(62, 45, 31);
+    /* margin: 30px 0; */
+
+}
+
+.mescoordonnees {
+    background-color: rgb(62, 45, 31);
+    color: white;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    margin: 30px 30px 0 0;
+    text-align: center;
+    padding: ;
+
+}
+
+
+.educationExpertise {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 20px;
+}
+
+.cv-right {
+    width: 50%;
+    height: 100vh;
+    background-color: rgb(187, 162, 150);
+
+}
+
+.languesloisirs {
+    background-color: rgb(62, 45, 31);
+    color: white;
+    height: 350px;
+    display: flex;
+    margin: 30px 0 0 0;
+    text-align: ;
+}
+
+
+.lang {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 40px;
+}
+
+.hob {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 40px;
+}
