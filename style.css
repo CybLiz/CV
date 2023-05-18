@@ -231,13 +231,17 @@ h4 {
     flex-direction: column;
     font-family: 'Open Sans lignt', sans-serif;
     font-style:bold; 
+    margin-top: 10px;
 }
 
 .entreprise p {
     margin-left: 19px;
-    text-decoration: solid;
+    font-family: 'Open Sans lignt', sans-serif;
     font-size: 12px;
     
+}
+.position2 {
+    margin-top: 10px;
 }
 
 .languesloisirs {
