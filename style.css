@@ -10,13 +10,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-main {
-    margin: auto;
-    width: 80%;
-
-}
-
 body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
@@ -67,8 +60,6 @@ body {
     /* font-size: 15px; */
 
 }
-
-/* rgb(62, 45, 31) */
 h1 {
     margin: 0 0 1rem;
     font-size: 2.5rem;
@@ -76,16 +67,12 @@ h1 {
     text-align: right;
     font-family: 'Dancing Script', cursive;
     font-weight: lighter;
-
-}
-h3 {
-    font-style:bolder;
-
 }
 h2 {
     text-align: right;
     color: #856955;
     font-family: 'Open Sans', sans-serif;
+    font-size: 26px;
 
 }
 
@@ -103,11 +90,10 @@ h2 {
   deuxiéme valeur: haut bas  */
   text-align:center;
 }
-
-section {
+main {
+    margin: auto;
+    width: 80%;
     display: flex;
-  
-    /* justify-content: space-between; */
 }
 
 .cv-left {
@@ -115,57 +101,143 @@ section {
     /* height: 100vh; */
     background-color: rgb(187, 162, 150);
     /* display: flex; */
+    /* margin-right: 15px; */
 
 }
 
 .verticalLine {
     border-right: thick solid rgb(62, 45, 31);
-    /* margin: 30px 0; */
+    display: flex;
+    flex-direction: column;
+     margin-top: 15px;
+     margin-bottom: 15px; 
+     height: 90%;
+     
 
 }
 
 .mescoordonnees {
-    background-color: rgb(62, 45, 31);
+    background-color: #3e2d1f;
     color: white;
-    height: 350px;
+    height: 300px;
     display: flex;
     flex-direction: column;
-    margin: 30px 10px 0 0;
-    text-align: center;
-    padding: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px ;
+    margin-left: 0;
+    margin-right: 15px;
+    text-align: left;
+    padding-top: 50px;
+    padding-bottom: 5Opx;
+    padding-left: 30px;
+}
+.mescoordonnees h3 {
+    font-family: Georgia;
+    font-style: bolder;
+    color: white;
+    font-size: 24px;
+    margin-bottom: 10px;
 
+    /* text-align: center; */
+}
+h4 {
+    font-size: 15px;
+    font-family: 'Open Sans lignt', sans-serif;
 }
 
-.mescoordonnees li {
-    list-style: none;
-}
-
-
-.educationExpertise {
+.tel{
     display: flex;
     flex-direction: column;
-    margin: 20px 20px;
-    font-size: 14px;;
-
+    row-gap: 3px;
+    font-family: 'Open Sans', sans-serif;
 }
 
+
+.tel span {
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 19px;
+    text-decoration: solid;
+    font-size: 12px;
+}
+
+.tel i {
+   font-size: 11px;
+   margin-top: 6px ;
+
+   /* display: flex;
+   flex-direction: column;
+   row-gap: 50px; */
+}
+.position{
+    display: flex;
+    column-gap: 9px;
+}
+
+ .educationExpertise {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+    margin-bottom: 30px; 
+    margin-left: 0;
+    margin-right: 15px;
+    color: white;
+    font-size: 14px;
+}
+
+.educationExpertise h3{
+    font-family: Georgia;
+    font-style: bolder;
+    color: #3e2d1f;
+    font-size: 24px;
+    margin-bottom: 10px;
+
+}
 .cv-right {
     width: 50%;
     /* height: 100vh; */
     background-color: rgb(187, 162, 150);
-
 }
 
 .experience {
-    /* display: flex; */
-    margin: 50px 10px 20px 10px;
-    font-size: 14px;;
-    
-    
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px ;
+    margin-bottom: 30px ;
+    margin-left: 15px;
+    margin-right:0 ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    font-size: 14px;   
+    row-gap: 3px;
+    font-family: 'Open Sans', sans-serif;   
+}
+.experience h3{
+    font-family: Georgia;
+    font-style: bolder;
+    color: #3e2d1f;
+    font-size: 24px;
+    margin-bottom: 10px;
 }
 
-.experience li{
-list-style: none;
+.entreprise {
+    display: flex;
+    column-gap: 5px;
+
+}
+.entreprise span{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans lignt', sans-serif;
+    font-style:bold; 
+}
+
+.entreprise p {
+    margin-left: 19px;
+    text-decoration: solid;
+    font-size: 12px;
+    
 }
 
 .languesloisirs {
@@ -173,26 +245,43 @@ list-style: none;
     color: white;
     height: 350px;
     display: flex;
-    margin: 10px 0 20px 10px;
-    font-size: 14px;;
+    justify-content: space-center ;  
+    margin-top: 20%;
+    margin-bottom: 30px; 
+    margin-left: 15px;
+    margin-right: 0;
 
 }
-
+.languesLoisirs h4{
+    font-family: Georgia;
+    font-style: bolder;
+    color: white;
+    font-size: 24px;
+}
 
 .lang {
     display: flex;
     flex-direction: column;
     text-align: center;
     margin: 40px;
+    font-size: 14px;
    
+ }
 
-}
+/* .headerlangues .headerloisirs {
+    display: flex;
+    justify-content: center;
+} */ 
 
-.hob {
+.loisirs {
     display: flex;
     flex-direction: column;
-    text-align: left;
-    margin: 40px;
+    /* margin: 40px; */
+}
+
+.loisirs li {
+    display: flex;
+    flex-direction: column;
 }
 
 @media screen and (max-width:900px) {
