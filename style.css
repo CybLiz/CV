@@ -28,6 +28,7 @@ body {
     margin-bottom: 10px;
 
 }
+  
 
 /* .imgProfil img {
     height: 230px;
@@ -113,9 +114,8 @@ main {
     /* margin-right: 15px; */
     height: 80%;
     padding: 20px 0px;
-   
+    }
 
-}
 
 .verticalLine {
     border-right: thick solid rgb(62, 45, 31);
@@ -394,16 +394,19 @@ h4 {
 
     .cv-left {
         width: 100%;
+        border-radius: 10px 10px 40px 10px;
     }
 
     .mescoordonnees {
         width: 90%;
         height: 250px;
-        margin-left: 30px;
+        margin-left: 0px;
+        margin-right: 35px;
         padding-top: 25px;
         padding-bottom: 25px;
         padding-left: 10px;
         padding-right: 10px;
+        border-radius: 10px;
     }
 
     .mescoordonnees h3 {
@@ -421,6 +424,8 @@ h4 {
 
     .cv-right {
         width: 100%;
+        border-radius: 40px 10px 10px 10px;
+
          /* border-left: thick solid rgb(62, 45, 31); 
          margin-top: 10px;
         margin-bottom: 10px;  */
@@ -454,6 +459,8 @@ h4 {
     .expertiselanguesloisirs {
         margin-left: 35px;
         margin-right: 0px;
+        border-radius: 10px;
+
     }
 
     .list h3 {
