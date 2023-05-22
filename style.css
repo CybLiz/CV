@@ -10,6 +10,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
@@ -24,11 +25,12 @@ body {
     max-height: 310px;
     background-color: #F4F0EC;
     display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
 
-   
 }
 
- /* .imgProfil img {
+/* .imgProfil img {
     height: 230px;
     width: 200px;
     margin: auto;
@@ -36,8 +38,8 @@ body {
     top: 20%;
     z-index: 2;
     /* background-color:rgb(62, 45, 31) ; */
-    /* display: flex; */
-    /* align-items: center; */
+/* display: flex; */
+/* align-items: center; */
 
 
 /* .imgProfil {
@@ -60,17 +62,23 @@ body {
     /* font-size: 15px; */
 
 }
+
 h1 {
-    margin: 0 0 1rem;
-    font-size: 2.5rem;
-    margin-bottom: .5rem;
-    text-align: right;
+
+    color: #3e2d1f;
+    font-size: 60px;
+    margin-bottom: .10px;
+    text-align: center;
     font-family: 'Dancing Script', cursive;
     font-weight: lighter;
 }
+
 h2 {
-    text-align: right;
-    color: #856955;
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    color: rgb(62, 45, 31);
+    ;
     font-family: 'Open Sans', sans-serif;
     font-size: 26px;
 
@@ -78,18 +86,21 @@ h2 {
 
 .aboutme {
     font-family: 'Open Sans', sans-serif;
+    color: #856955;
+    ;
     width: 100%;
     margin: auto;
     padding: 15px auto;
 }
 
 .aboutme p {
-    font-size: 18px;;
+    font-size: 18px;
     padding: 15px 0;
     /* premiere valeur: gauche droite
   deuxiéme valeur: haut bas  */
-  text-align:center;
+    text-align: center;
 }
+
 main {
     margin: auto;
     width: 80%;
@@ -102,6 +113,7 @@ main {
     background-color: rgb(187, 162, 150);
     /* display: flex; */
     /* margin-right: 15px; */
+    height: 80%;
 
 }
 
@@ -109,45 +121,54 @@ main {
     border-right: thick solid rgb(62, 45, 31);
     display: flex;
     flex-direction: column;
-     margin-top: 15px;
-     margin-bottom: 15px; 
-     height: 90%;
-     
+    margin-top: 15px;
+    margin-bottom: 15px;
+    /* height: 80%; */
+
 
 }
 
 .mescoordonnees {
     background-color: #3e2d1f;
     color: white;
+    width: 80%;
     height: 300px;
     display: flex;
     flex-direction: column;
-    margin-top: 25px;
-    margin-bottom: 25px ;
+    /* margin-top: 25px;
+    margin-bottom: 25px;
     margin-left: 0;
-    margin-right: 15px;
-    text-align: left;
-    padding-top: 50px;
-    padding-bottom: 5Opx;
+    margin-right: 15px; */
+    /* margin: auto; */
+    padding-top: 20px;
+    padding-bottom: 2Opx;
     padding-left: 30px;
 }
+
 .mescoordonnees h3 {
     font-family: Georgia;
     font-style: bolder;
     color: white;
     font-size: 24px;
+    /* margin-top: 5px; */
     margin-bottom: 10px;
+    margin-left: 30px;
 
     /* text-align: center; */
 }
+
 h4 {
     font-size: 15px;
+    text-align: centre;
+
     font-family: 'Open Sans lignt', sans-serif;
 }
 
-.tel{
+.tel {
     display: flex;
     flex-direction: column;
+    /* width: 150px; */
+    margin-left: 30px;
     row-gap: 3px;
     font-family: 'Open Sans', sans-serif;
 }
@@ -161,59 +182,110 @@ h4 {
 }
 
 .tel i {
-   font-size: 11px;
-   margin-top: 6px ;
+    font-size: 11px;
+    margin-top: 6px;
 
-   /* display: flex;
+    /* display: flex;
    flex-direction: column;
    row-gap: 50px; */
 }
-.position{
+
+.position {
     display: flex;
     column-gap: 9px;
 }
 
- .educationExpertise {
+.educationBloc {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column;
+    justify-content: flex-start; */
     margin-top: 15%;
-    margin-bottom: 30px; 
+    margin-bottom: 30px;
     margin-left: 0;
     margin-right: 15px;
     color: white;
     font-size: 14px;
 }
 
-.educationExpertise h3{
+.educationBloc h3 {
     font-family: Georgia;
     font-style: bolder;
     color: #3e2d1f;
     font-size: 24px;
     margin-bottom: 10px;
+    margin-left: 35px;
 
 }
+
+.blocSpanP {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+
+}
+
+.position3 {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 35px;
+}
+
+.text {
+    width: 60%;
+    margin-right: 10px;
+
+}
+
+.bloc1 {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.bloc2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    text-align: justify;
+
+
+}
+
+.bloc3 {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 10px;
+    text-align: justify;
+
+
+}
+
 .cv-right {
     width: 50%;
     /* height: 100vh; */
     background-color: rgb(187, 162, 150);
+
 }
 
 .experience {
     height: 300px;
     display: flex;
     flex-direction: column;
-    margin-top: 45px ;
-    margin-bottom: 30px ;
+    margin-top: 45px;
+    margin-bottom: 120px;
     margin-left: 15px;
-    margin-right:0 ;
+    margin-right: 0;
     padding-top: 20px;
     padding-bottom: 20px;
     color: white;
-    font-size: 14px;   
+    font-size: 14px;
     row-gap: 3px;
-    font-family: 'Open Sans', sans-serif;   
+    font-family: 'Open Sans', sans-serif;
 }
-.experience h3{
+
+.experience h3 {
     font-family: Georgia;
     font-style: bolder;
     color: #3e2d1f;
@@ -226,11 +298,12 @@ h4 {
     column-gap: 5px;
 
 }
-.entreprise span{
+
+.entreprise span {
     display: flex;
     flex-direction: column;
     font-family: 'Open Sans lignt', sans-serif;
-    font-style:bold; 
+    font-style: bold;
     margin-top: 10px;
 }
 
@@ -238,61 +311,146 @@ h4 {
     margin-left: 19px;
     font-family: 'Open Sans lignt', sans-serif;
     font-size: 12px;
-    
 }
+
 .position2 {
     margin-top: 10px;
 }
 
-.languesloisirs {
-    background-color: rgb(62, 45, 31);
-    color: white;
-    height: 350px;
-    display: flex;
-    justify-content: space-center ;  
-    margin-top: 20%;
-    margin-bottom: 30px; 
+.expertiselanguesloisirs {
+    /* width: 70%; */
     margin-left: 15px;
-    margin-right: 0;
-
+    margin-top: 100px;
+    height: 300px;
+    background-color: #3e2d1f;
+    color: #F4F0EC;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
 }
-.languesLoisirs h4{
+
+.list h3 {
     font-family: Georgia;
     font-style: bolder;
     color: white;
     font-size: 24px;
+    margin-right: 20px;
+
 }
 
-.lang {
+.list ul {
+    margin-left: 18px;
+    margin-top: 10px;
+}
+
+
+/* .lang {
     display: flex;
     flex-direction: column;
-    text-align: center;
-    margin: 40px;
-    font-size: 14px;
-   
- }
+    align-items: center;
+     margin: 40px; 
+    font-size: 14px; */
 
-/* .headerlangues .headerloisirs {
-    display: flex;
-    justify-content: center;
-} */ 
+}
 
-.loisirs {
+.colonne {
     display: flex;
     flex-direction: column;
-    /* margin: 40px; */
+    row-gap: 10px;
+
 }
 
-.loisirs li {
-    display: flex;
-    flex-direction: column;
-}
+@media screen and (max-width:915px) {
 
-@media screen and (max-width:900px) {
+    .presentation {
+        width: 90%;
+    }
 
- .aboutme p {
-    font-size: 12px;
-}
+    h1 {
+        font-size: 40px;
+        margin-top: 10px;
+    }
 
+    h2 {
+        font-size: 15px;
+    }
 
-} 
+    .aboutme p {
+        text-align: justify;
+        font-size: 13px;
+    }
+
+    main {
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cv-left {
+        width: 100%;
+    }
+
+    .mescoordonnees {
+        width: 90%;
+        height: 250px;
+        margin-left: 30px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .mescoordonnees h3 {
+        font-size: 20px;
+    }
+
+    .educationBloc {
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+
+    .educationBloc h3 {
+        font-size: 20px;
+    }
+
+    .cv-right {
+        width: 100%;
+    }
+
+    .experience {
+        margin-top: 10px;
+        margin-left: 35px;
+        margin-right: 25px;
+        font-size: 13px;
+        text-align: justify;
+
+    }
+
+    .experience h3 {
+        margin-bottom: 0;
+        font-size: 20px;
+    }
+
+    .entreprise {
+        margin-top: 0px;
+    }
+
+    .expertiselanguesloisirs {
+        margin-left: 35px;
+        margin-right: 0px;
+    }
+
+    .list h3 {
+        font-size: 17px;
+
+    }
+
+    .list ul {
+        font-size: 13px;
+    }
+
+    .colonne {
+        margin-top: 20px;
+        margin-left: 40px;
+        margin-right: 0px;
+    }
