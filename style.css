@@ -38,9 +38,9 @@ body {
     /* height: 25px; */
     padding-top: 0px;
     padding-right: 10px;
-    position: absolute;
+    position: fixed;
     right: 11.5%;
-    top: 2.5%;
+    top: 3.5%;
    
 }
  body.dark{
@@ -118,7 +118,7 @@ body.dark .mescoordonnees {
 	position: absolute;
 	left: 3px;
 	height: 19px;
-	width: 19px;
+	width: 19.5px;
 	transform: translateX(0px);
     transition: transform 0.2s linear;
 }
@@ -174,10 +174,7 @@ body.dark .mescoordonnees {
    height: 60px;
    align-items: center;
    justify-content: center;
-   /* column-gap: 80px; */
-
-
-   
+   /* column-gap: 80px; */   
 }
 h1 {
 
@@ -186,8 +183,8 @@ h1 {
     margin-bottom: 10px;
     font-family: 'Dancing Script', cursive;
     font-weight: lighter;
-    position: absolute;
-    left: 40%;
+    /* position: absolute;
+    left: 40%; */
 }
 
 
@@ -492,18 +489,22 @@ h4 {
     h1 {
         font-size: 35px;
         margin-top: 10px;
-        left: 35%;
+        left: 31%;
     }
     .label {
-        height: 22px;
-        width: 47px;  
+        height: 19px;
+        width: 43px;  
     }
     .label .ball {
         position: absolute;
         left: 3px;
-        height: 18px;
-        width: 18,5px;
+        height: 17px;
+        width: 19px;
     }
+    .checkbox:checked + .label .ball {
+        transform: translateX(20px);
+    }
+    
     h2 {
         font-size: 15px;
     }
