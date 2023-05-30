@@ -132,7 +132,7 @@ body.dark .label .ball {
     position: absolute;
     left: 3px;
     height: 19px;
-    width: 19.5px;
+    width: 19px;
     transform: translateX(0px);
     transition: transform 0.2s linear;
 }
@@ -317,6 +317,25 @@ h4 {
     display: flex;
     flex-direction: column;
     row-gap: 50px;
+    animation: animate 1s linear infinite;
+    filter: drop-shadow(
+        
+        /* 0 0 50px green */
+        0 0 50px pink);
+/* 
+        overflow:visible;
+        -webkit-border-radius:5px;
+        -moz-border-radius:5px;
+        border-radius:5px;
+        width:10px;
+        height:10px;
+         */
+}
+@keyframes animate{
+    0% { filter: hue-rotate(0deg);}
+
+    100% { filter: hue-rotate(360deg);}
+
 }
 
 .position {
@@ -516,15 +535,15 @@ h4 {
     }
 
     .label {
-        height: 19px;
-        width: 43px;
+        height: 20px;
+        width: 42px;
     }
 
     .label .ball {
         position: absolute;
         left: 3px;
         height: 17px;
-        width: 19px;
+        width: 17px;
     }
 
     .checkbox:checked+.label .ball {
